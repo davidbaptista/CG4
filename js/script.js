@@ -112,7 +112,7 @@ function createBall(r) {
 
 	geometry = new THREE.SphereGeometry(r, 32, 32)
 	let materials = [
-		new THREE.MeshPhongMaterial({color: 0xffffff, specular: 0xffffff, shininess: 1, bumpMap: bumpmap}),
+		new THREE.MeshPhongMaterial({color: 0xffffff, specular: 0xffffff, shininess: 20, bumpMap: bumpmap}),
 		new THREE.MeshBasicMaterial({color: 0xffffff})
 	]
 	materialsList.push(materials[0]);
