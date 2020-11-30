@@ -344,7 +344,8 @@ function animate() {
     flag.rotateY(rotationSpeed * delta);
 
     if (ballMovement) {
-        ball.position.y += ballSpeedy * delta;
+		ball.position.y += ballSpeedy * delta;
+		
         if (ball.position.y >= 0) {
             ballSpeedy -= 9.8 * delta;
 		} 
